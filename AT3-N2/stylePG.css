@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+body{
+    background: linear-gradient(#05051B,#19233C);
+    height: 1500px;
+    background-repeat: no-repeat;
+  }
+  
+  @font-face {
+    font-family: 'Font';
+    src: url(Swiper-Slider-3D-Coverflow/Monument_Valley_1.2-Regular.otf);
+  }
+  .lupa{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  
+  .containersearch{
+    padding: 0 1rem;
+    margin: 0 auto;
+    position: absolute; top: 5.6rem; left: 10%;
+  }
+  
+  .search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    background-color: #FFE0E6;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 50px;
+    padding: 5px 10px;
+  }
+  
+  #searchInput{
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+  }
+  
+  .search label{
+    height: 20px;
+  }
+  
+  
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  
+  .containerhome{
+    position: relative; top: 4.5rem; left: 2%;
+   cursor: pointer;
+   }
+  
+  .material-symbols-outlined{
+  color: white;
+  }
+
+  .button-ctlg1{
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative; top: 10rem; left: 40%; right: auto;
+    transition: transform 0.5s ease;
+    padding: 4rem;
+    margin: auto;
+  }
+ 
+  
+  .img-button{border-radius: 1rem;
+  height: 40rem; 
+  position: relative;left: -30rem;
+  }
+
+  .container-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    position: relative;
+    top: -32rem; left: 50%;
+    text-align: justify;
+    color: white;
+    width: 36rem; height: 30rem;
+  }
+  
+  .title{
+    color: white;
+    font-family: 'Font';
+    font-size: 30px;
+    position: relative; left:56%; top: -70rem ;
+  }
+
+  .button{
+    position: relative; top: -20rem; left: 40%; right: 65;
+    border: none;
+    background-color: #ffffff0c;
+    padding: 20px; width: 20rem;
+    border-radius: 5px;
+    color: #f5f5f5;
+    font-family: 'Font'; font-size: 16px;
+    cursor: pointer;
+    transition:  background-color 0.3s ease, color 0.5s ease, transform 0.5s ease;
+   }
+   
+   .button:hover{
+    background-color: #ffffff48;
+    transform: scale(1.1);
+  }
